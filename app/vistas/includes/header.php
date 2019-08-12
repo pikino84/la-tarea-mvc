@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="<?= RUTAPUBLIC; ?>/public/css/materialize.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <title><?= NOMBREAPP; ?></title>
         <style>
             body{

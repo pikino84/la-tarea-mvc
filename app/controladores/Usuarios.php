@@ -5,11 +5,10 @@ class Usuarios extends Controlador{
     }
 
     public function index(){
-        $this->vista('usuarios/login');
         if($this->checarLogeo()){
-            redirect('usuarios/publicaciones');
+            redirect('publicaciones');
         }else{
-            redirect('usuarios/login');
+            $this->vista('usuarios/login');
         }
     }
 
@@ -50,7 +49,7 @@ class Usuarios extends Controlador{
 
     public function crearSesionDeUsuario($user){
         $_SESSION['id_usuario'] = $user->id;
-        redirect('publicaciones');
+        redirect('alertas/entro');
     }
 
     public function salir(){

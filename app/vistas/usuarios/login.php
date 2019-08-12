@@ -21,8 +21,8 @@
                             </div>
                             <div class="card-content black-text">
                                 <form action="<?= RUTAPUBLIC; ?>/usuarios/iniciarSesion/" method="POST" autocomplete="off">
-                                    <input tyoe="email" placeholder="correo" autofocus name="correo" required="">
-                                    <input tyoe="password" placeholder="clave"  name="pass" required="">
+                                    <input type="email" placeholder="correo" autofocus name="correo" required="">
+                                    <input type="password" placeholder="clave"  name="pass" required="">
                                     <button class="btn wave-effect waves-light black" type="submit" name="action">Entrar <i class="material-icons">send</i></button>
                                 </form>
                                 <br><br><br>
